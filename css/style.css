@@ -200,23 +200,13 @@ nav ul li ul a {
 /*FORMATAÇÃO DA IMAGEM ESTÁTICA DO PAINEL E DO GRÁFICO*/
 .img_dashboard {
     z-index: 1;
-    /*width: 25cm;
-    height: auto;*/
-    margin-top: 4%;
+    width: 26cm;
+    height: auto;
+    margin-top: 3%;
     margin-left: 18%;
     opacity: 1;
 	-moz-opacity: 1;
 	filter: alpha(opacity=10);
-}
-
-#img_dashboard_painel {
-    width: 25cm;
-    height: auto;
-}
-
-#img_dashboard_graficos {
-    width: 25cm;
-    height: auto;
 }
 
 /*FORMATAÇÃO DA TELA DE CADASTRO E ALTERAÇÃO DE USUARIO*/

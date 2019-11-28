@@ -41,7 +41,7 @@
             </nav> 
         </div>
     </header>
-    <img id="img_dashboard_painel" class="img_dashboard" src="../../img/painel_dash.png" href="../../css/style.css">
+    <img class="img_dashboard" src="../../img/painel_dash.png" href="../../css/style.css">
     <div id="rodape">
         <div><?php texto_rodape();?></div>
     </div>
