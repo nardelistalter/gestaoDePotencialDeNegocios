@@ -15,8 +15,11 @@ class ConnectionDB extends PDO {
                 //VPS
                 //self::$instance = new ConnectionDB("mysql:dbname=crm_db;host=54.39.123.196","root", "casca123@DEVS");
 
-                //Localhost
+                //Localhost BD Windows
                 self::$instance = new ConnectionDB("mysql:dbname=crm_db;host=localhost","root", "");
+
+                //Localhost BD Linux
+                //self::$instance = new ConnectionDB("mysql:dbname=crm_db;host=localhost","admin", "admin");
 
                 //echo "Conectado ao banco de dados!";
             } catch (PDOException $e) {
