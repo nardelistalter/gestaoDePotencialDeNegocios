@@ -25,7 +25,7 @@
     </header>
 
     <!--
-        Formulário para informar os dados para login, acesso a área de cadastro ou recuperação de senha
+        Formulário para informar os dados para login, acesso a área de cadastro ou para recuperação de senha
     -->
      <form action="controller/controller_usuario.php?operation=login" id="login-box" method="POST">
         <div class="input-div" id="input-email">
