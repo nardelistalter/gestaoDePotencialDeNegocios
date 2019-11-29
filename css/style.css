@@ -2,22 +2,28 @@
     margin: 0;
     padding: 0;
     font-family: Calibri, Verdana, Geneva, sans-serif;
-    text-decoration: none; /* Elimina a formatação padrão dos links. Ex.: sublinhados, etc */
+    text-decoration: none;
+    /* Elimina a formatação padrão dos links. Ex.: sublinhados, etc */
 }
 
+
 /*PONTEIRO*/
+
 .pointer {
     cursor: pointer;
 }
 
+
 /*FORMATAÇÃO DA BARRA VERTICAL*/
+
 .barra_vertical {
     z-index: 2;
     background-color: #424242;
     box-shadow: 0px 0px 3px #838282;
     position: fixed;
     width: 12.5em;
-    height: 100%; /*ajusta automaticamente à altura da página*/
+    height: 100%;
+    /*ajusta automaticamente à altura da página*/
 }
 
 #logo_system {
@@ -34,8 +40,8 @@
     /*background-color: #1C1C1C;*/
     margin-top: 0.6em;
     margin-left: -0.2em;
-    padding: 0.5em; 
-    width: auto; 
+    padding: 0.5em;
+    width: auto;
     font-size: 1em;
     text-align: center;
 }
@@ -64,7 +70,9 @@
     height: auto;
 }
 
+
 /*FORMATAÇÃO DO MENU VERTICAL*/
+
 span {
     background-color: none;
     font-size: 13px;
@@ -102,11 +110,11 @@ nav ul li {
 
 nav ul li span {
     padding: 1em 1.5em;
-    float: left;  
+    float: left;
 }
 
 nav ul li #span_home {
-    background: url(../img/home.PNG) no-repeat center; 
+    background: url(../img/home.PNG) no-repeat center;
     background-size: 1.7em;
 }
 
@@ -118,8 +126,8 @@ nav ul li #span_dashboard {
 nav ul li #span_register {
     background: url(../img/register.PNG) no-repeat center;
     background-size: 1.7em;
-}   
- 
+}
+
 nav ul li #span_definitions {
     background: url(../img/definitions.PNG) no-repeat center;
     background-size: 1.7em;
@@ -141,23 +149,26 @@ nav ul li a:hover {
 nav ul li ul a {
     display: none;
     color: #b9bcbd;
-    background: #333333; 
+    background: #333333;
     font-size: 0.875em;
     font-weight: normal;
 }
 
+
 /*FORMATAÇÃO DA BARRA HORIZONTAL*/
+
 .barra_horizontal {
-	z-index: -11;
-	background-color: rgb(243, 243, 243);
-	/*border-bottom-width: 0.7em;
+    z-index: -11;
+    background-color: rgb(243, 243, 243);
+    /*border-bottom-width: 0.7em;
 	border-bottom-style: solid;*/
-    border-bottom-color:#dddcdc;
+    border-bottom-color: #dddcdc;
     box-shadow: 0px 0px 5px;
-	margin-left: 12.5em;
+    margin-left: 12.5em;
     position: fixed;
     height: 5.4em;
-    width: 100%; /*ajusta automaticamente à largura da página*/
+    width: 100%;
+    /*ajusta automaticamente à largura da página*/
 }
 
 #logo_pagina {
@@ -172,7 +183,7 @@ nav ul li ul a {
     font-size: 2.8em;
     font-weight: bold;
     margin-top: -1.3cm;
-	padding-left: 4.5%;
+    padding-left: 4.5%;
     color: #424242;
     outline: none;
 }
@@ -180,12 +191,14 @@ nav ul li ul a {
 #descricao_nome_pagina {
     font-size: 1.8em;
     margin-top: -0.3cm;
-	padding-left: 0.7%;
+    padding-left: 0.7%;
     color: #424242;
     outline: none;
 }
 
+
 /*FORMATAÇÃO DA TELA INICIAL DE CADA CATEGORIA*/
+
 #logo_principal_menu {
     z-index: -2;
     width: 15cm;
@@ -193,11 +206,13 @@ nav ul li ul a {
     margin-top: 2%;
     margin-left: 34%;
     opacity: 0.1;
-	-moz-opacity: 0.1;
-	filter: alpha(opacity=1);
+    -moz-opacity: 0.1;
+    filter: alpha(opacity=1);
 }
 
+
 /*FORMATAÇÃO DA IMAGEM ESTÁTICA DO PAINEL E DO GRÁFICO*/
+
 .img_dashboard {
     z-index: 1;
     width: 26cm;
@@ -205,24 +220,28 @@ nav ul li ul a {
     margin-top: 3%;
     margin-left: 18%;
     opacity: 1;
-	-moz-opacity: 1;
-	filter: alpha(opacity=10);
+    -moz-opacity: 1;
+    filter: alpha(opacity=10);
 }
 
+
 /*FORMATAÇÃO DA TELA DE CADASTRO E ALTERAÇÃO DE USUARIO*/
+
 .register-user-box {
-	width: 10.61cm;
-	height: 11.5cm;
-	background-color: #fdfdfd;
-	position: absolute;
-	margin: 7% 38% 0%; /* primeiro (140px): margem de cima para baixo, auto: ajusta no centro e último (0px) elimina margem abaixo */ 
-	border-radius: 2px;
+    width: 10.61cm;
+    height: 11.5cm;
+    background-color: #fdfdfd;
+    position: absolute;
+    margin: 7% 38% 0%;
+    /* primeiro (140px): margem de cima para baixo, auto: ajusta no centro e último (0px) elimina margem abaixo */
+    border-radius: 2px;
     box-shadow: 0px 0px 7px;
-	overflow: hidden; /* qualquer objeto que estiver dentro não vai aparecer seus excessos*/
+    overflow: hidden;
+    /* qualquer objeto que estiver dentro não vai aparecer seus excessos*/
 }
 
 #user_update_form {
-	box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
 }
 
 #botao-cancelar {
@@ -235,62 +254,69 @@ nav ul li ul a {
     border-bottom-color: #8d8c8c;
 }
 
+
 /*FORMATAÇÃO DA TELA DE LOGIN*/
+
 #login-box {
-	width: 10.61cm;
-	height: 8.68cm;
-	background-color: #fdfdfd;
-	position: absolute;
-	margin: 10% 38% 0%; /* primeiro (140px): margem de cima para baixo, auto: ajusta no centro e último (0px) elimina margem abaixo */ 
-	border-radius: 2px;
-	box-shadow: 0px 0px 7px;
-	overflow: hidden; /* qualquer objeto que estiver dentro não vai aparecer seus excessos*/
+    width: 10.61cm;
+    height: 8.68cm;
+    background-color: #fdfdfd;
+    position: absolute;
+    margin: 10% 38% 0%;
+    /* primeiro (140px): margem de cima para baixo, auto: ajusta no centro e último (0px) elimina margem abaixo */
+    border-radius: 2px;
+    box-shadow: 0px 0px 7px;
+    overflow: hidden;
+    /* qualquer objeto que estiver dentro não vai aparecer seus excessos*/
 }
 
-#input-email { /*Ajusta a altura extra do primeira div (E-mail)*/
-    margin: 0.99cm auto 0cm; 
+#input-email {
+    /*Ajusta a altura extra do primeira div (E-mail)*/
+    margin: 0.99cm auto 0cm;
 }
 
 .input-div input {
     margin: 0.57cm 1.80cm 0px;
     background-color: #F2F2F2;
-	width: 7.01cm;
-	height: 0.8cm;
+    width: 7.01cm;
+    height: 0.8cm;
     padding-left: 5px;
     font-size: 14px;
-	color: #132574d2;
-	border: 1px solid #989a9b;
-	outline: none;
+    color: #132574d2;
+    border: 1px solid #989a9b;
+    outline: none;
 }
 
 .input-div select {
     margin: 0.57cm 1.80cm 0px;
     background-color: #F2F2F2;
-	width: 7.01cm;
-	height: 0.8cm;
+    width: 7.01cm;
+    height: 0.8cm;
     padding-left: 5px;
     font-size: 14px;
-	color: #132574d2;
-	border: 1px solid #989a9b;
-	outline: none;
+    color: #132574d2;
+    border: 1px solid #989a9b;
+    outline: none;
 }
 
 .botoes {
     margin: 0.57cm 1.80cm 0px;
     background-color: #F2F2F2;
-	width: 7.01cm;
+    width: 7.01cm;
     height: 1.1cm;
     color: white;
-    display: -webkit-flex; /*Centralização de texto na div: INÍCIO*/
+    display: -webkit-flex;
+    /*Centralização de texto na div: INÍCIO*/
     display: flex;
     -webkit-align-items: center;
     align-items: center;
     -webkit-justify-content: center;
-    justify-content: center; /*Centralização de texto na div: FIM*/
+    justify-content: center;
+    /*Centralização de texto na div: FIM*/
     font-size: 14px;
     font-weight: bolder;
-	/*border-radius: 3px;*/
-	outline: none;
+    /*border-radius: 3px;*/
+    outline: none;
 }
 
 #botao-login {
@@ -320,37 +346,46 @@ nav ul li ul a {
     background-color: rgba(22, 156, 56, 0.897);
 }
 
+
 /*FORMATAÇÃO DA TELA DE RECUPERAÇÃO DE SENHA*/
+
 #recovery-box {
-	width: 10.61cm;
-	height: 5.4cm;
-	background-color: #fdfdfd;
-	position: absolute;
-	margin: 12% 38% 0%; /* primeiro (140px): margem de cima para baixo, auto: ajusta no centro e último (0px) elimina margem abaixo */ 
-	border-radius: 2px;
-	box-shadow: 0px 0px 7px;
-	overflow: hidden; /* qualquer objeto que estiver dentro não vai aparecer seus excessos*/
+    width: 10.61cm;
+    height: 5.4cm;
+    background-color: #fdfdfd;
+    position: absolute;
+    margin: 12% 38% 0%;
+    /* primeiro (140px): margem de cima para baixo, auto: ajusta no centro e último (0px) elimina margem abaixo */
+    border-radius: 2px;
+    box-shadow: 0px 0px 7px;
+    overflow: hidden;
+    /* qualquer objeto que estiver dentro não vai aparecer seus excessos*/
 }
 
 #botao-enviar {
     background-color: rgba(22, 156, 56, 0.897);
 }
 
+
 /*FORMATAÇÃO DA TELA DE ERROS*/
+
 .div_view_erros {
-    margin: 3em 17em; /* primeiro (140px): margem de cima para baixo, auto: ajusta no centro e último (0px) elimina margem abaixo */ 
+    margin: 3em 17em;
+    /* primeiro (140px): margem de cima para baixo, auto: ajusta no centro e último (0px) elimina margem abaixo */
     width: 45em;
     height: auto;
     font-size: 1.2em;
-	position: absolute;
-	overflow: hidden; /* qualquer objeto que estiver dentro não vai aparecer seus excessos*/
+    position: absolute;
+    overflow: hidden;
+    /* qualquer objeto que estiver dentro não vai aparecer seus excessos*/
 }
 
 #img_error {
     width: 4.5em;
     height: auto;
-    padding-left: 20em; 
+    padding-left: 20em;
 }
+
 .div_view_erros p {
     color: white;
 }
@@ -377,7 +412,9 @@ nav ul li ul a {
     box-shadow: 0px 0px 10px 1px rgb(150, 150, 150);
 }
 
+
 /*FORMATAÇÃO DA DIV COM TABELAS DAS ÁREAS DE CADASTRO (LOGADO)*/
+
 .container {
     z-index: 0;
     padding-top: 6.5%;
@@ -396,7 +433,7 @@ nav ul li ul a {
     /*background-color: #f75a5a;*/
     position: absolute;
     /*margin: 0px 0px 0px;*/
-    overflow: hidden;   
+    overflow: hidden;
 }
 
 .control-group span {
@@ -404,7 +441,7 @@ nav ul li ul a {
     font-size: 13px;
 }
 
-.input_div_cad {    
+.input_div_cad {
     background-color: #F2F2F2;
     height: 0.8cm;
     padding-left: 0.3em;
@@ -416,7 +453,9 @@ nav ul li ul a {
     outline: none;
 }
 
+
 /*FORMATAÇÃO DA BARRA DO CRUD NAS TELAS DE CADASTRO*/
+
 .crud_div {
     padding: 0px 0px 5px 0px;
     background-color: none;
@@ -457,7 +496,7 @@ nav ul li ul a {
 
 #search {
     width: 8cm;
-    height: 0.8cm;            
+    height: 0.8cm;
     background-color: white;
     margin-left: 0em;
     padding-left: 0.5em;
@@ -465,12 +504,14 @@ nav ul li ul a {
     font-size: 0.9em;
     color: #132574d2;
     border: 1px solid #989a9b;
-    outline: none;    
+    outline: none;
 }
 
+
 /*FORMATAÇÃO DO FORM DOS CADASTROS*/
+
 #estado {
-    width: 8cm;            
+    width: 8cm;
 }
 
 #sigla {
@@ -478,7 +519,7 @@ nav ul li ul a {
 }
 
 #regiao {
-    width: 8cm;            
+    width: 8cm;
 }
 
 #municipio {
@@ -517,7 +558,9 @@ nav ul li ul a {
     width: 2cm;
 }
 
+
 /*FORMATAÇÃO DA DIV QUE CONTÊM A TABELA NA ÁREA DE CADASTRO*/
+
 
 /*table tbody,
 table thead {
@@ -553,17 +596,19 @@ table tbody {
     padding-top: 3.2em;
 }
 
+
 /*FORMATAÇÃO DA TABELA DE CADASTRO*/
+
 table {
     margin: none;
-    padding: none;   
+    padding: none;
 }
 
 table.tabela_cadastros {
     margin: 0.7em;
     margin-top: 9.4em;
     text-align: center;
-    border-collapse: collapse;   
+    border-collapse: collapse;
 }
 
 .tabela_cadastros th {
@@ -574,7 +619,7 @@ table.tabela_cadastros {
 
 .tabela_cadastros td {
     padding: 0.35em;
-    border: 0.1em solid rgb(206, 205, 205); 
+    border: 0.1em solid rgb(206, 205, 205);
 }
 
 td.td_id {
@@ -592,10 +637,12 @@ td.td_id {
 .img_table_ed_cl {
     border-style: none;
     height: 1.6em;
-    width: auto;            
+    width: auto;
 }
 
+
 /*FORMATAÇÃO DA JANELA MODAL*/
+
 .modal-window {
     z-index: 3;
     width: 100%;
@@ -611,7 +658,9 @@ td.td_id {
     display: block;
 }
 
+
 /*MODAL BOX COM FORM DE 1 INPUT*/
+
 .modal-box-1 {
     width: 10.61cm;
     position: absolute;
@@ -621,17 +670,21 @@ td.td_id {
 }
 
 .user-crud-box-1 {
-	width: 10.61cm;
-	height: 7.43cm;
-	background-color: #fdfdfd;
-	position: absolute;
-	margin: 8% 0% 0%; /* primeiro (140px): margem de cima para baixo, auto: ajusta no centro e último (0px) elimina margem abaixo */ 
-	border-radius: 2px;
-	box-shadow: 0px 0px 7px;
-	overflow: hidden; /* qualquer objeto que estiver dentro não vai aparecer seus excessos*/
+    width: 10.61cm;
+    height: 7.43cm;
+    background-color: #fdfdfd;
+    position: absolute;
+    margin: 8% 0% 0%;
+    /* primeiro (140px): margem de cima para baixo, auto: ajusta no centro e último (0px) elimina margem abaixo */
+    border-radius: 2px;
+    box-shadow: 0px 0px 7px;
+    overflow: hidden;
+    /* qualquer objeto que estiver dentro não vai aparecer seus excessos*/
 }
 
+
 /*MODAL BOX COM FORM DE 2 INPUTS*/
+
 .modal-box-2 {
     width: 10.61cm;
     position: absolute;
@@ -641,17 +694,22 @@ td.td_id {
 }
 
 .user-crud-box-2 {
-	width: 10.61cm;
-	height: 8.65cm;  /* + 1.37 para cada input em relação .modal-box-1*/
-	background-color: #fdfdfd;
-	position: absolute;
-	margin: 8% 0% 0%; /* primeiro (140px): margem de cima para baixo, auto: ajusta no centro e último (0px) elimina margem abaixo */ 
-	border-radius: 2px;
-	box-shadow: 0px 0px 7px;
-	overflow: hidden; /* qualquer objeto que estiver dentro não vai aparecer seus excessos*/
+    width: 10.61cm;
+    height: 8.65cm;
+    /* + 1.37 para cada input em relação .modal-box-1*/
+    background-color: #fdfdfd;
+    position: absolute;
+    margin: 8% 0% 0%;
+    /* primeiro (140px): margem de cima para baixo, auto: ajusta no centro e último (0px) elimina margem abaixo */
+    border-radius: 2px;
+    box-shadow: 0px 0px 7px;
+    overflow: hidden;
+    /* qualquer objeto que estiver dentro não vai aparecer seus excessos*/
 }
 
+
 /*MODAL BOX COM FORM DE 3 INPUTS*/
+
 .modal-box-3 {
     width: 10.61cm;
     position: absolute;
@@ -661,37 +719,47 @@ td.td_id {
 }
 
 .user-crud-box-3 {
-	width: 10.61cm;
-	height: 10.02cm;  /* + 1.37 para cada input em relação .modal-box-1*/
-	background-color: #fdfdfd;
-	position: absolute;
-	margin: 8% 0% 0%; /* primeiro (140px): margem de cima para baixo, auto: ajusta no centro e último (0px) elimina margem abaixo */ 
-	border-radius: 2px;
-	box-shadow: 0px 0px 7px;
-	overflow: hidden; /* qualquer objeto que estiver dentro não vai aparecer seus excessos*/
+    width: 10.61cm;
+    height: 10.02cm;
+    /* + 1.37 para cada input em relação .modal-box-1*/
+    background-color: #fdfdfd;
+    position: absolute;
+    margin: 8% 0% 0%;
+    /* primeiro (140px): margem de cima para baixo, auto: ajusta no centro e último (0px) elimina margem abaixo */
+    border-radius: 2px;
+    box-shadow: 0px 0px 7px;
+    overflow: hidden;
+    /* qualquer objeto que estiver dentro não vai aparecer seus excessos*/
 }
 
+
 /*MODAL BOX COM FORM DE 4 INPUTS*/
+
 .modal-box-4 {
     width: 10.61cm;
     position: absolute;
     margin-left: -260px;
     left: 55%;
-    top: 7%; 
+    top: 7%;
 }
 
 .user-crud-box-4 {
-	width: 10.61cm;
-	height: 11.39cm;  /* + 1.37 para cada input em relação .modal-box-1*/
-	background-color: #fdfdfd;
-	position: absolute;
-	margin: 8% 0% 0%; /* primeiro (140px): margem de cima para baixo, auto: ajusta no centro e último (0px) elimina margem abaixo */ 
-	border-radius: 2px;
-	box-shadow: 0px 0px 7px;
-	overflow: hidden; /* qualquer objeto que estiver dentro não vai aparecer seus excessos*/
+    width: 10.61cm;
+    height: 11.39cm;
+    /* + 1.37 para cada input em relação .modal-box-1*/
+    background-color: #fdfdfd;
+    position: absolute;
+    margin: 8% 0% 0%;
+    /* primeiro (140px): margem de cima para baixo, auto: ajusta no centro e último (0px) elimina margem abaixo */
+    border-radius: 2px;
+    box-shadow: 0px 0px 7px;
+    overflow: hidden;
+    /* qualquer objeto que estiver dentro não vai aparecer seus excessos*/
 }
 
+
 /*MODAL BOX COM FORM DE 5 INPUTS*/
+
 .modal-box-5 {
     width: 10.61cm;
     position: absolute;
@@ -701,17 +769,22 @@ td.td_id {
 }
 
 .user-crud-box-5 {
-	width: 10.61cm;
-	height: 12.76cm;  /* + 1.37 para cada input em relação .modal-box-1*/
-	background-color: #fdfdfd;
-	position: absolute;
-	margin: 8% 0% 0%; /* primeiro (140px): margem de cima para baixo, auto: ajusta no centro e último (0px) elimina margem abaixo */ 
-	border-radius: 2px;
-	box-shadow: 0px 0px 7px;
-	overflow: hidden; /* qualquer objeto que estiver dentro não vai aparecer seus excessos*/
+    width: 10.61cm;
+    height: 12.76cm;
+    /* + 1.37 para cada input em relação .modal-box-1*/
+    background-color: #fdfdfd;
+    position: absolute;
+    margin: 8% 0% 0%;
+    /* primeiro (140px): margem de cima para baixo, auto: ajusta no centro e último (0px) elimina margem abaixo */
+    border-radius: 2px;
+    box-shadow: 0px 0px 7px;
+    overflow: hidden;
+    /* qualquer objeto que estiver dentro não vai aparecer seus excessos*/
 }
 
+
 /*MODAL BOX COM FORM DE 6 INPUTS*/
+
 .modal-box-6 {
     width: 10.61cm;
     position: absolute;
@@ -721,14 +794,17 @@ td.td_id {
 }
 
 .user-crud-box-6 {
-	width: 10.61cm;
-	height: 14.13cm;  /* + 1.37 para cada input em relação .modal-box-1*/
-	background-color: #fdfdfd;
-	position: absolute;
-	margin: 8% 0% 0%; /* primeiro (140px): margem de cima para baixo, auto: ajusta no centro e último (0px) elimina margem abaixo */ 
-	border-radius: 2px;
-	box-shadow: 0px 0px 7px;
-	overflow: hidden; /* qualquer objeto que estiver dentro não vai aparecer seus excessos*/
+    width: 10.61cm;
+    height: 14.13cm;
+    /* + 1.37 para cada input em relação .modal-box-1*/
+    background-color: #fdfdfd;
+    position: absolute;
+    margin: 8% 0% 0%;
+    /* primeiro (140px): margem de cima para baixo, auto: ajusta no centro e último (0px) elimina margem abaixo */
+    border-radius: 2px;
+    box-shadow: 0px 0px 7px;
+    overflow: hidden;
+    /* qualquer objeto que estiver dentro não vai aparecer seus excessos*/
 }
 
 #close {
@@ -745,22 +821,25 @@ td.td_id {
     /*border: solid white;*/
 }
 
+
 /*#close:hover {
     opacity: 0.6;
 }*/
 
+
 /*FORMATAÇÃO DO RODAPÉ PADRÃO*/
-#rodape > div {
+
+#rodape>div {
     z-index: -1;
     background-color: #989a9b;
-	position: fixed;
+    position: fixed;
     margin: center;
-	overflow: hidden;
-	color:#D8D8D8;
+    overflow: hidden;
+    color: #D8D8D8;
     bottom: 0;
     margin-left: 5%;
-	font-size: 16px;
-	text-align: center;
-	height: auto;
-	width: 100%;
+    font-size: 16px;
+    text-align: center;
+    height: auto;
+    width: 100%;
 }
